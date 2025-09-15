@@ -1,0 +1,54 @@
+Classes Candidatas – Fluxo Principal
+
+1. Candidato
+   - Atributos:
+       • nome
+       • CPF
+       • contato
+       • habilidades
+       • interesses
+       • status (“pendente”, “aprovado”, “rejeitado”)
+   - Responsabilidades:
+       • Manter dados do candidato e seu estado no processo de afiliação.
+
+2. Voluntário (derivado do candidato aprovado)
+   - Atributos:
+       • login
+       • senha
+       • perfil
+       • recomendações
+   - Responsabilidades:
+       • Representar o voluntário ativo no sistema.
+
+3. RepresentanteRMS (ou RepresentanteRedeMaisSocial)
+   - Atributos:
+       • id
+       • nome
+       • credenciais de acesso
+   - Responsabilidades:
+       • Realizar busca, aprovar ou rejeitar candidatos, solicitar recomendações.
+
+4. PerfilVoluntario
+   - Atributos:
+       • área de atuação
+       • carga horária disponível
+       • tipo de atividade preferida
+   - Responsabilidades:
+       • Armazenar preferências para recomendar ONGs/campanhas.
+
+5. ONGParceira
+   - Atributos:
+       • nome
+       • localização
+       • área de atuação
+   - Responsabilidades:
+       • Entidade recomendada ao voluntário.
+
+
+9. EmailNotificacao
+   - Atributos:
+       • destinatário
+       • assunto
+       • corpo da mensagem
+   - Responsabilidades:
+       • Enviar mensagens de aprovação, rejeição e instruções de acesso.
