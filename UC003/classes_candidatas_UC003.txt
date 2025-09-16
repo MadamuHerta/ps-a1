@@ -1,0 +1,13 @@
+Classes Candidatas – Fluxo Principal
+
+. Candidato
+
+. Voluntário (derivado do candidato aprovado)
+
+. RepresentanteRMS (ou RepresentanteRedeMaisSocial)
+
+. PerfilVoluntario
+
+. ONGParceira
+
+. EmailNotificacao

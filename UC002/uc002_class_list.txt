@@ -1,0 +1,11 @@
+Lista de classes que seriam utilizadas na UC002
+    •    PaginaSolicitarAfiliacao   
+    •    FormularioIdentificacaoPF
+    •    FormularioIdentificacaoPJ
+    •    SecaoPerfilHabilidadesInteresses
+    •    TermoDeCompromisso
+    •    AvisoValidacaoEmail
+    •    StatusAguardandoAprovacao
+    •    MensagemErroFormulario
+    •    ProcessoEncerradoNaoAceite
+    •    ReenvioValidacaoEmail
